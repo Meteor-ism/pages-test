@@ -5,31 +5,9 @@
         color: red;
       }
     </style>
-    <link rel="icon" type="image/png" href="https://art.pixilart.com/sr2496ea0b3fed4.gif">
     <title>Shawn9web is hosted using GitHub Pages</title>
   </head>
   <body>
-    <script>
-      image_counter = 0; // To keep track of the current image
-      
-      setInterval(function() {
-        // remove current favicon
-        if(document.querySelector("link[rel='icon']") !== null)
-            document.querySelector("link[rel='icon']").remove();
-        if(document.querySelector("link[rel='shortcut icon']") !== null)
-            document.querySelector("link[rel='shortcut icon']").remove();
-        
-        // add new favicon image
-        document.querySelector("head").insertAdjacentHTML('beforeend', '<link rel="icon" href="pixel-frame-' + String(image_counter) + '.png" type="image/gif">');
-        
-        // If last image then goto first image
-        // Else go to next image    
-        if(image_counter == 71)
-            image_counter = 0;
-        else
-            image_counter++;
-      }, 200);
-    </script>
     <details>
       <summary>This is a thing</summary>
       <p class="red">Hello</p>
