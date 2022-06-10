@@ -1,0 +1,18 @@
+.w {
+  color: red;
+}
+.r {
+  color: green;
+}
+.q {
+  color: yellow;
+}
+.p {
+  color: orange;
+}
+.n {
+  color: black;
+}
+body {
+  background-color: #105E26;
+}
